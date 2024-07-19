@@ -182,16 +182,18 @@ input, label{
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
-  gap: 2rem 1rem;
+  gap: 2rem;
 }
 
 .menu-items{
   /* height: 400px; */
+  flex: 1 1 30%; 
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .menu-container img{
@@ -246,6 +248,9 @@ footer ul li{
   padding: 8px 0;
 }
 
+.priceTag{
+  color: #EE9972;
+}
 
 @media screen and (max-width: 768px){
   .menu-icon {

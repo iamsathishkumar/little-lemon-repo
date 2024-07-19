@@ -1,6 +1,6 @@
 import React from "react";
 import recipes from "./recipes";
-import Swal from "sweetalert2";
+
 
 const Menu = () => {
     return (
@@ -19,7 +19,7 @@ const Menu = () => {
                         <div className="menu-content">
                             <div className="heading">
                                 <h5>{recipe.title}</h5>
-                                <p>{recipe.price}</p>
+                                <p className="priceTag">${recipe.price}</p>
                             </div>
                             <p>{recipe.description}</p>
                             <button className="orderBtn">Order Now</button>

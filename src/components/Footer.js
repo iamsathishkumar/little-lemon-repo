@@ -26,7 +26,7 @@ const Footer = () => {
                     <h3>Contact</h3>
                     <ul>
                         <li>Address: <br/> 123, Wall Street, USA</li>
-                        <li>Phone : <br/>++ 123 4567 890 </li>
+                        <li>Phone : <br/>+ 123 4567 890 </li>
                         <li>Email: <br/>littlelemon@food.com</li>
                     </ul>
                 </div>
